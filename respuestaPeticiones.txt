@@ -1,0 +1,124 @@
+login.php
+{
+	"token": "token"
+}
+
+departamentos.php
+
+{
+	data: [
+		{
+			"id": 1,
+			"nombre": "Amazonas"
+		},
+		{
+			"id": 2,
+			"nombre": "Antioquia"
+		},
+	]
+}
+
+municipios.php
+
+{
+	data: [
+		{
+			"idDepartamento": 2
+			"idMinicipio": 1,
+			"nombre": "Medellin"
+		},
+		{
+			"idDepartamento": 2
+			"idMinicipio": 2,
+			"nombre": "envigado"
+		}
+	]
+}
+
+post publicaciones.php 
+
+{
+	"data": [
+		{
+			"idPublicacion": 2,
+			"idUsuario": 1,
+			"texto": "lalala",
+			"imagen": "" 
+			"fecha": "2021-04-11 17:30:34",
+		},
+		{
+			"idPublicacion": 2,
+			"idUsuario": 2,
+			"texto": "lalala",
+			"imagen": "" 
+			"fecha": "2021-04-11 17:30:34",
+		},
+		{
+			"idPublicacion": 2,
+			"idUsuario": 1,
+			"texto": "lalala",
+			"imagen": "" 
+			"fecha": "2021-04-11 17:30:34",
+		},
+		{
+			"idPublicacion": 2,
+			"idUsuario": 2,
+			"texto": "lalala",
+			"imagen": "" 
+			"fecha": "2021-04-11 17:30:34",
+		}
+	]
+}
+
+consultaUsuario.php
+
+{
+	"data": {
+		"nombres": "",
+		"apellidos": "",
+		"genero": "",
+		"fechaNacimiento": "",
+		"idMunicipio": "",
+		"tipo": "",
+		"fotoPerfil": ""
+	}
+}
+
+consultarComentarios.php
+
+{
+	"data": {
+		{
+			"idPublicacion":"",
+			"idUsuario": "",
+			"conmentario": "",
+			"fecha": ""
+		}
+	}
+}
+
+crearComentarios.php
+
+{
+	"data": {
+		{
+			"idPublicacion":"",
+			"idUsuario": "",
+			"conmentario": "",
+			"fecha": ""
+		}
+	}
+}
+
+consultarReacciones.php
+
+{
+	"data": {
+		"positivas": "",
+		"negativas": ""
+	}
+}
+
+
+
+
